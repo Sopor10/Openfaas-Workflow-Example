@@ -1,0 +1,15 @@
+workflow:
+  name: get-corona-data
+  gateway_url: http://10.62.0.1:8080/
+  steps:
+    - name: get-html
+      function: get-html
+      method: POST
+
+    - name: extract-table
+      function: extract-table
+      method: POST
+
+    - name: create-telegram-message
+      function: create-telegram-message
+      method: POST

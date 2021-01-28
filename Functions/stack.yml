@@ -1,0 +1,24 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  corona-data-workflow:
+    lang: workflow
+    handler: ./corona-data-workflow
+    image: sopor10/corona-data-workflow:latest
+
+  create-telegram-message:
+    lang: csharp-httprequest-custom
+    handler: ./create-telegram-message
+    image: sopor10/create-telegram-message:latest
+
+  extract-table:
+    lang: csharp-httprequest-custom
+    handler: ./extract-table
+    image: sopor10/extract-table:latest
+
+  get-html:
+    lang: csharp-httprequest-custom
+    handler: ./get-html
+    image: sopor10/get-html:latest
