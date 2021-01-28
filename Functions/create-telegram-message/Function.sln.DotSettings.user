@@ -1,7 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=83b61e33_002D1d2a_002D4c58_002D9ab1_002Def2172a0b2a5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::527DB997-0F2B-445C-9247-E1C17B37793D::net5.0::Function.Test.FunctionTests.TypedHandlerShouldNotIncludeHannover&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::527DB997-0F2B-445C-9247-E1C17B37793D::net5.0::Function.Test.FunctionTests.TypedHandlerShouldGenerateMessageWhenTheDataIncludesLangenhagen&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
